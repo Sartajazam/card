@@ -1,0 +1,23 @@
+.maincard{
+    border: 1px solid red;
+    width: 20%;
+padding: 12px;
+border-radius: 12px;
+}
+.maincard button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 7px ;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.maincard button:hover{
+    background-color: red;
+}
+
+#sectionone{
+    display: flex;
+    justify-content: space-evenly;
+}
